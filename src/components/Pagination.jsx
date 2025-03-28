@@ -1,26 +1,4 @@
-// const Pagination = ({ page, totalPages, onPageChange }) => {
-//     return (
-//       <div className="flex justify-center mt-6 space-x-4">
-//         <button
-//           className={`px-4 py-2 border rounded ${page === 1 ? "opacity-50 cursor-not-allowed" : "hover:bg-gray-100"}`}
-//           onClick={() => onPageChange(page - 1)}
-//           disabled={page === 1}
-//         >
-//           Previous
-//         </button>
-//         <span className="text-lg font-semibold">{page} / {totalPages}</span>
-//         <button
-//           className={`px-4 py-2 border rounded ${page === totalPages ? "opacity-50 cursor-not-allowed" : "hover:bg-gray-100"}`}
-//           onClick={() => onPageChange(page + 1)}
-//           disabled={page === totalPages}
-//         >
-//           Next
-//         </button>
-//       </div>
-//     );
-//   };
-  
-//   export default Pagination;
+
 const Pagination = ({ page, totalPages, onPageChange }) => {
     return (
       <div className="flex justify-center mt-6 space-x-2">

@@ -53,6 +53,17 @@ npm run dev
 - 🔍 **Search & Filter** – Users can search by name/email.
 - ✏️ **User CRUD Operations** – Edit/Delete users via API.
 
+## 🚀 Performance Optimization: Pagination & Lazy Loading
+- **Pagination**: Users are fetched in pages to reduce load time.
+- **Lazy Loading**: Components are loaded only when needed, improving initial load time.
+
+1. ### **📌 Pagination**  
+- The application uses **pagination** to efficiently fetch and display users in a **page-wise manner**, improving performance by reducing the amount of data loaded at once. The pagination component includes **First, Previous, Next, and Last** page navigation controls.
+
+---
+
+2. ### **🚀 Lazy Loading**  
+- To optimize performance and **reduce initial load time**, the application implements **lazy loading** for user cards. The `UserCard` component is dynamically imported using `React.lazy()`, and wrapped with `Suspense` to display a fallback UI while the component loads. This ensures a **faster, smoother user experience**, especially when handling large datasets.
 ---
 
 ## 🗂 File Structure
