@@ -1,8 +1,7 @@
 # Internship Assignment Submission
 
 ## 🚀 Project: User Management System
-This project is a **React-based User Management System** developed as part of an **internship assignment**. It allows users to be fetched via an API, searched, updated, and deleted. The system also includes authentication using JWT.
-
+This project is a **React-based User Management System** developed as part of an **internship assignment**. It allows users to be fetched via an API, searched, updated, and deleted. 
 ## 🌍 Live Demo
 [🔗 Deployed on Render](https://intern-assign-109g.onrender.com/)
 
@@ -31,7 +30,7 @@ cd intern-assign
 npm install
 
 # Start the development server
-npm start
+npm run dev
 ```
 
 
