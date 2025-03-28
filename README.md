@@ -1,12 +1,103 @@
-# React + Vite
+# Internship Assignment Submission
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Project: User Management System
+This project is a **React-based User Management System** developed as part of an **internship assignment**. It allows users to be fetched via an API, searched, updated, and deleted. The system also includes authentication using JWT.
 
-Currently, two official plugins are available:
+## 🌍 Live Demo
+[🔗 Deployed on Render](https://intern-assign-109g.onrender.com/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> **Note:** Authentication is required to access the user list.The required credentials are: 
+- Email : eve.holt@reqres.in
+- Password : cityslicka
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack Used
+- **Frontend:** React, React Router, TailwindCSS
+- **API Calls:** Axios
+
+---
+
+## 🔧 Installation & Setup
+To run the project locally, follow these steps:
+```bash
+# Clone the repository
+git clone https://github.com/Jashans254/intern-assign.git
+
+# Navigate to project directory
+cd intern-assign
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
+```
+
+
+
+---
+
+## 🔍 API Endpoints Used
+| Method | Endpoint | Description |
+|--------|---------|-------------|
+| `POST` | `/api/login` | Authenticate user (email & password in the body). |
+| `GET` | `/users?page={page}` | Fetch users for a specific page. |
+| `PUT` | `/api/users/{id}` | Update user details. |
+| `DELETE` | `/users/{id}` | Delete a user by ID. |
+
+---
+
+## ✅ Features & Functionality
+- 🔑 **Authentication (JWT-based)** – Redirects to login if not authenticated.
+- 📄 **User Listing with Pagination** – Fetches users page-wise.
+- 🔍 **Search & Filter** – Users can search by name/email.
+- ✏️ **User CRUD Operations** – Edit/Delete users via API.
+
+---
+
+## 🗂 File Structure
+```
+/intern-assign
+│── /src
+│   ├── /components
+│   │   ├── UserCard.jsx
+│   │   ├── SearchFilter.jsx
+│   │   ├── Pagination.jsx
+│   │   ├── EditUserModal.jsx 
+│   ├── /pages
+│   │   ├── UsersList.jsx
+│   │   ├── Login.jsx 
+│   ├── /services
+│   │   ├── api.js
+│── package.json
+│── README.md
+```
+
+---
+
+## ✅ Assumptions & Considerations
+- The API **requires authentication** (Authorization: Bearer `<token>`).
+- Users are **fetched using pagination** (`?page=x`).
+- If the token is **missing or invalid**, the user is **redirected to login** (handled via local storage).
+
+## ✅ Screenshots
+### Login Page
+- ![alt text](image.png)
+### User List Page
+- ![alt text](image-1.png)
+### search
+- ![alt text](image-2.png)
+### Edit User Modal
+- ![alt text](image-3.png)
+
+---
+
+## 📩 Contact / Author Info
+👨‍💻 **Developed by:** Jashanpreet Singh  
+📧 **Email:** singh.jashan2456@gmail.com 
+🔗 **GitHub:** [Jashans254](https://github.com/Jashans254)
+
+---
+
+
