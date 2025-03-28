@@ -83,13 +83,13 @@ npm start
 
 ## ✅ Screenshots
 ### Login Page
-- ![alt text](image.png)
+- ![alt text](images/image.png)
 ### User List Page
-- ![alt text](image-1.png)
+- ![alt text](images/image-1.png)
 ### search
-- ![alt text](image-2.png)
+- ![alt text](images/image-2.png)
 ### Edit User Modal
-- ![alt text](image-3.png)
+- ![alt text](images/image-3.png)
 
 ---
 
